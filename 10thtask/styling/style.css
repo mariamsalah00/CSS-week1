@@ -92,4 +92,21 @@
     font-size: 35px;
     
 }
+.child2,
+.child1{
+    position: relative;
+}
+
+.child2 ::before{
+    content: "or";
+    position: absolute;
+    top: 150px;
+    left: -55px;
+    background-color:  rgba(29, 157, 212, 0.749);
+    color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size:15px ;
+}
 

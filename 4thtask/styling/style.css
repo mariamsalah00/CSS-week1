@@ -1,0 +1,26 @@
+.parent .child .title {
+    color: red;
+}
+.parent .title {
+    color: blue;
+}
+p , .title {
+    color: green;
+} 
+.title1 , .title2 , .title3 , .title4 {
+    padding: 10px;
+    margin :10px;
+    background-color: darkred;
+    max-width: 400px;
+    max-height: 250px;
+
+}
+.title1 , .title2 , .title3 {
+    width:fit-content
+}
+.title4 {
+    overflow: hidden;
+}
+
+
+

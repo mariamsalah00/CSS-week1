@@ -1,0 +1,48 @@
+.shadow {
+     margin: 10px;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: xx-large;
+   font-family: 'Poppins', sans-serif;
+    text-shadow: 1px 1px 0px tomato,2px 2px 0px #0c6ab7,3px 3px 0px #7a87ed;
+}
+.one {
+    text-transform: uppercase;
+    
+}
+.two {
+    text-transform: capitalize;
+}
+.three {
+    text-transform: lowercase;
+} 
+.text1 , .text2 , .text3 {
+    padding: 10px;
+    margin: 10px;
+    width: 400px;
+    background-color: #eee;
+} 
+.text2 {
+    
+    overflow: hidden;
+    white-space: nowrap;
+}
+.text3 {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+a { display: inline-block;
+    padding: 10px;
+    margin: 10px 10px;
+    background-color: rgb(6, 175, 6);
+    border-bottom:5px solid rgb(3, 69, 3);
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+
+   
+}

@@ -1,0 +1,40 @@
+.shape1, .shape2, .shape3 {
+    display: inline-block;
+    border-width: 5px;
+    border-style: solid;
+    outline: 5px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+.shape1 {
+    border: 5px solid red;
+}
+.shape2 {
+    border-color: blue green;
+    border-style: solid;
+    
+}
+.shape3 {
+    border-color: red green blue yellow;
+    border-style: dashed;
+   
+
+}
+.element-1, .element-2, .element-3 {
+    width: 400px; 
+    margin: 10px;
+    padding: 10px;
+}
+.element-1 {
+    border-left-color: red;
+    border-left-width:5px ;
+    border-left-style: solid;
+}
+.element-2 {
+    visibility: hidden;
+}
+.element-3 {
+    border-left-color: green;
+    border-left-width:5px ;
+    border-left-style: solid;
+}

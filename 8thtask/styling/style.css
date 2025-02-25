@@ -1,0 +1,141 @@
+ 
+ .parent1 div {
+    width: 100px;
+    height: 100px;
+    
+}
+.green {
+    background-color: green;
+    z-index: 5;
+    position: absolute;
+    left: 15px;
+    z-index: 4;
+}
+
+.red {
+    background-color: red;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    z-index: 5;
+}
+.blue {
+    background-color: blue;
+    position: absolute;
+    top: -5px;
+    z-index: 3;
+}
+.black {
+    background-color: black;
+    position: absolute;
+
+}
+.position {
+    width: 400px;
+    margin: auto;
+    border-bottom: 5px solid red;
+    border-top: 5px solid red;
+    border-right: 5px solid blue;
+    border-left: 5px solid blue;
+    padding: 20px;
+    position: relative;
+    background-color: #eee;
+}
+.position span {
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    
+}
+.top-left {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    border-right: 4px solid red;
+    
+}
+.bottom-left {
+    position: absolute;
+    bottom: -10px;
+    left: -10px;
+    border-right: 4px solid red;
+}
+.top-right {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    border-left: 4px solid red;
+}
+.bottom-right {
+   position: absolute;
+    bottom: -10px;
+    right: -10px;
+    border-left: 4px solid red;
+}
+.parent2 {
+    margin: 100px auto;
+    width: 400px;
+
+}
+.child {
+    background-color: #eee;
+    list-style-type: none;
+    width: 100%;
+    margin: 20px ;
+    padding: 10px;
+}
+.list1 {
+    list-style-type: decimal;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+.list2 {
+    list-style-type:upper-roman;
+    background-color: white;
+    padding: 10px;
+    margin: 5px;
+}
+.list3 {
+    list-style-position: inside;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+img {
+    width: 50px;
+    margin: auto;
+}
+table {
+   background-color: #eee;
+   border-bottom: 2px solid green; 
+   width:80%;
+   margin: auto ;
+   border-collapse: collapse;
+}
+td {
+    padding: 10px; 
+    border: 2px solid white;
+    text-align: center;
+    text-transform: capitalize;
+}
+thead td {
+    font-weight: bold;
+    color: white;
+    background-color: rgb(65, 59, 59);
+}
+.view {
+    background-color: rgb(103, 103, 154);
+    color: white;
+    text-transform: capitalize;
+    border: none;
+}
+.delete {
+    background-color: rgb(216, 107, 125);
+    color: white;
+    text-transform: capitalize;
+    border: none;
+}

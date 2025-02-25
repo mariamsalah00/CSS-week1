@@ -1,0 +1,41 @@
+.parent {
+    width:1000px;
+    margin: auto;
+    background-color:  #ccc;
+    
+}
+
+.row1,
+.row2,
+.row3,
+.row4 {
+    background-color: #eee;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 10px 0; 
+    margin-left: 15px;
+    margin-top: 15px;
+    
+    float:left;
+}
+
+.clear {
+    clear: both;
+}
+
+.row1 {
+    width: calc(100% - 30px);
+}
+
+.row2 {
+    width: calc((100% - 60px) / 3);
+}
+
+.row3 {
+    width: calc((100% - 45px) / 2);
+}
+
+.row4 {
+    width: calc((100% - 75px) / 4);
+} 
+ 
